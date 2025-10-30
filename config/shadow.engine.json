@@ -1,0 +1,24 @@
+{
+  "ast_parsing": {
+    "enabled": true,
+    "supported_languages": ["typescript", "javascript"],
+    "parse_timeout_ms": 5000
+  },
+  "dependency_graph": {
+    "enabled": true,
+    "scan_patterns": ["**/*.ts", "**/*.js", "**/*.tsx", "**/*.jsx"],
+    "exclude_patterns": ["node_modules/**", ".shadow/**", "dist/**", "build/**"],
+    "cycle_detection": true
+  },
+  "ai_observer": {
+    "enabled": true,
+    "pause_threshold_seconds": 3.0,
+    "heuristics_path": "ai_observer/models/heuristics.json",
+    "auto_analyze_on_pause": false
+  },
+  "analysis": {
+    "max_file_size_kb": 1024,
+    "max_files_per_analysis": 100,
+    "cache_results": true
+  }
+}

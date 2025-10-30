@@ -1,0 +1,30 @@
+{
+  "api": {
+    "host": "localhost",
+    "port": 8080,
+    "tls": {
+      "enabled": false,
+      "cert_path": "",
+      "key_path": ""
+    }
+  },
+  "auth": {
+    "token_header": "X-Shadow-Token",
+    "token_length": 32
+  },
+  "session": {
+    "ttl_hours": 72,
+    "max_payload_mb": 50,
+    "storage": "memory"
+  },
+  "runner": {
+    "base_image": "node:18-alpine",
+    "timeout_seconds": 300,
+    "max_concurrent": 5,
+    "cleanup_delay_seconds": 5
+  },
+  "dashboard": {
+    "port": 3000,
+    "static_path": "dashboard/minimal"
+  }
+}

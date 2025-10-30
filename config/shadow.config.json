@@ -1,0 +1,8 @@
+{
+  "shadowDir": ".shadow",
+  "sessionDb": "session.db",
+  "sessionLog": "session.log",
+  "overlayMode": "ephemeral",
+  "diffTracking": true,
+  "logLevel": "info"
+}

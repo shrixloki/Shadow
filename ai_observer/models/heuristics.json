@@ -1,0 +1,27 @@
+{
+  "risk_weights": {
+    "function_changes": 1.0,
+    "class_changes": 1.5,
+    "import_changes": 2.0,
+    "export_changes": 2.5
+  },
+  "impact_multipliers": {
+    "core_modules": 2.0,
+    "utility_modules": 1.2,
+    "test_modules": 0.5
+  },
+  "risk_thresholds": {
+    "low": 2.0,
+    "medium": 5.0,
+    "high": 10.0
+  },
+  "pause_detection": {
+    "threshold_seconds": 3.0,
+    "activity_window": 10.0
+  },
+  "module_patterns": {
+    "core": ["engine", "core", "main", "index", "app"],
+    "utility": ["util", "helper", "common", "shared"],
+    "test": ["test", "spec", "__tests__", ".test.", ".spec."]
+  }
+}

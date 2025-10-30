@@ -1,0 +1,1 @@
+{"version":3,"file":"analyze.d.ts","sourceRoot":"","sources":["../../../cli/commands/analyze.ts"],"names":[],"mappings":"AAYA,qBAAa,cAAc;IACnB,OAAO,IAAI,OAAO,CAAC,IAAI,CAAC;YAgEhB,eAAe;YAcf,aAAa;IAgB3B,OAAO,CAAC,eAAe;YAKT,kBAAkB;YAsBlB,cAAc;IA2E5B,OAAO,CAAC,sBAAsB;IAc9B,OAAO,CAAC,eAAe;CAOxB"}
